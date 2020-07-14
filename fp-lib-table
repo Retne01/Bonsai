@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name cftkb)(type KiCad)(uri "E:/001 - Keyboard Files/005 - Random Example/mysterium-master/cftkb.pretty")(options "")(descr ""))
+  (lib (name eec)(type KiCad)(uri "E:/001 - Keyboard Files/Libraries/THT New USB C - GCT USB4085/eec.pretty")(options "")(descr ""))
+  (lib (name Type-C)(type KiCad)(uri "E:/001 - Keyboard Files/Libraries/Type-C.pretty-master")(options "")(descr ""))
+)
