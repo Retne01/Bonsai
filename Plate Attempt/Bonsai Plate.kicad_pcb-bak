@@ -1615,7 +1615,7 @@
   (gr_line (start 173.738445 208.630584) (end 176.65053 194.933713) (layer Edge.Cuts) (width 0.15) (tstamp 5F1DB099))
   (gr_line (start 62.265111 153.381913) (end 62.265112 139.379537) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 43.502131 153.379375) (end 62.265111 153.381913) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 43.502131 139.381435) (end 43.509751 153.366675) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 43.502337 139.379536) (end 43.502131 153.379375) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 62.265112 139.379537) (end 43.502337 139.379536) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 330.659082 115.281914) (end 313.783084 115.281915) (layer Edge.Cuts) (width 0.15) (tstamp 5F1DA33F))
   (gr_line (start 330.659082 101.279533) (end 313.783721 101.279533) (layer Edge.Cuts) (width 0.15))
