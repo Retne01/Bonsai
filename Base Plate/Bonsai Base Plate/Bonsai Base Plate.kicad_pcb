@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 12)
-    (tracks 1)
+    (tracks 0)
     (zones 0)
     (modules 13)
     (nets 1)
@@ -3020,7 +3020,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D569F)
     (attr virtual)
-    (fp_text reference H12 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H12 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3040,7 +3040,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D567B)
     (attr virtual)
-    (fp_text reference H11 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H11 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3060,7 +3060,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D5699)
     (attr virtual)
-    (fp_text reference H10 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H10 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3080,7 +3080,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D5675)
     (attr virtual)
-    (fp_text reference H9 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H9 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3100,7 +3100,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D5693)
     (attr virtual)
-    (fp_text reference H8 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H8 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3120,7 +3120,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D566F)
     (attr virtual)
-    (fp_text reference H7 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H7 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3140,7 +3140,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D568D)
     (attr virtual)
-    (fp_text reference H6 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H6 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3160,7 +3160,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D5669)
     (attr virtual)
-    (fp_text reference H5 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H5 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3180,7 +3180,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D5687)
     (attr virtual)
-    (fp_text reference H4 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H4 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3200,7 +3200,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D5663)
     (attr virtual)
-    (fp_text reference H3 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H3 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3220,7 +3220,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D5681)
     (attr virtual)
-    (fp_text reference H2 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H2 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3240,7 +3240,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1D565D)
     (attr virtual)
-    (fp_text reference H1 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H1 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3266,7 +3266,5 @@
   (gr_line (start 379.89129 210.27263) (end 263.067695 210.27151) (layer Edge.Cuts) (width 0.05) (tstamp 5F1D0D09))
   (gr_arc (start 379.903991 63.08725) (end 384.70205 63.04915) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F1CFBB9))
   (gr_arc (start 379.901452 205.474571) (end 379.89129 210.27263) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F1CFBB8))
-
-  (segment (start 298.354026 58.932609) (end 267.86428 58.932609) (width 0.254) (layer F.Cu) (net 0) (tstamp 5F1D0ACC))
 
 )

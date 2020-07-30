@@ -3,4 +3,5 @@
   (lib (name eec)(type KiCad)(uri "E:/001 - Keyboard Files/Libraries/THT New USB C - GCT USB4085/eec.pretty")(options "")(descr ""))
   (lib (name Type-C)(type KiCad)(uri "E:/001 - Keyboard Files/Libraries/Type-C.pretty-master")(options "")(descr ""))
   (lib (name "Plate Hole for MX")(type KiCad)(uri "E:/001 - Keyboard Files/Libraries/Plate Hole for MX")(options "")(descr ""))
+  (lib (name Art)(type KiCad)(uri "E:/001 - Keyboard Files/006 - Bonsai/Bonsai/Art")(options "")(descr ""))
 )
