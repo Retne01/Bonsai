@@ -11,6 +11,6 @@ To flash the bootloader you will need an AVR programmer.  I used a Sparkfun Pock
 
 ![](./Pics/pic3.jpg)
 
-[Here is the BOM.](https://octopart.com/bom-tool/dQECSo9X)  All the parts are labeled on the board.  I don't have a build guide put together right now but I have faith that anyone ordering this for themselves can figure out where the parts go on the board.  Just make sure to get your diodes and MCU oriented right.
+[Here is the BOM.](https://octopart.com/bom-tool/dQECSo9X)  All the parts are labeled on the board.  I don't have a build guide put together right now but I have faith that anyone ordering this for themselves can figure out where the parts go on the board.  Just make sure to get your diodes, MCU, and 4.7uF capacitor oriented right.
 
 ![](./Pics/pic4.jpg)
