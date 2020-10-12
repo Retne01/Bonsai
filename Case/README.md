@@ -1,5 +1,5 @@
 # Acrylic Case for the Bonsai
-This is a layered acrylic case design for the Bonsai.  I currently have this ordered from Ponoko but I don't have it in hand yet.  Use this at your own risk.
+This is a layered acrylic case design for the Bonsai.  I currently have this ordered from Ponoko but I don't have it in hand yet.  Use this at your own risk.  That said if you plan to YOLO it make sure you only order the main pcb and not the base plate or switch plate as this case will negate the need for both.
 
 If you order this from Ponoko here are the material types and thicknesses to use:
 
