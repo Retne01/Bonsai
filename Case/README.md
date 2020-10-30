@@ -17,4 +17,4 @@ If you order this from Ponoko here are the material types and thicknesses to use
 
 07 - Bonsai-Bottom03mm - 3mm acrylic
 
-You will also need [10 M2.5 15mm standoffs](https://www.harwin.com/products/R25-1001502/), [4 M2.5 12mm standoffs](https://www.harwin.com/products/R25-1001202/), [M2 4mm nuts](https://www.harwin.com/products/M80-2430000B/), and [14 M2.5 5mm screws](https://www.amazon.com/Machine-Plated-Phillips-M2-5-0-45-Threads/dp/B000NHVPPO/).  The screws may need to be 6mm.  I won't know until I get the cut case in hand.
+You will also need [10 M2.5 15mm standoffs](https://www.harwin.com/products/R25-1001502/), [4 M2.5 12mm standoffs](https://www.harwin.com/products/R25-1001202/), [M2 4mm nuts](https://www.harwin.com/products/M80-2430000B/), [4 M2 6mm Screws](https://www.amazon.com/gp/product/B07HGNNCLV/), and [14 M2.5 5mm screws](https://www.amazon.com/Machine-Plated-Phillips-M2-5-0-45-Threads/dp/B000NHVPPO/).  The screws may need to be 6mm.  I won't know until I get the cut case in hand.
