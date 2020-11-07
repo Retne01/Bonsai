@@ -1,14 +1,14 @@
 # Acrylic Case for the Bonsai
 
-[](./Pics/Nice Bonsai.jpg)
+![](./Pics/Nice Bonsai.jpg)
 
 This is a layered acrylic case design for the Bonsai.  The USB cutout might be a little slim so if your custom USB cable uses more than heatshrink to wrap the USB C end it probably won't fit.
 
-[](./Pics/Bonsai Side Profile.jpg)
+![](./Pics/Bonsai Side Profile.jpg)
 
 If you plan to build the Bonsai with this case make sure to only order the main pcb and not the base plate or switch plate as this case will negate the need for both.
 
-[](./Pics/Bonsai Top View.jpg)
+![](./Pics/Bonsai Top View.jpg)
 
 If you order this from Ponoko here are the material types and thicknesses to use:
 
