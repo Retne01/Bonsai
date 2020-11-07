@@ -1,5 +1,14 @@
 # Acrylic Case for the Bonsai
-This is a layered acrylic case design for the Bonsai.  I currently have this ordered from Ponoko but I don't have it in hand yet.  Use this at your own risk.  That said if you plan to YOLO it make sure you only order the main pcb and not the base plate or switch plate as this case will negate the need for both.
+
+[](./Pics/Nice Bonsai.jpg)
+
+This is a layered acrylic case design for the Bonsai.  The USB cutout might be a little slim so if your custom USB cable uses more than heatshrink to wrap the USB C end it probably won't fit.
+
+[](./Pics/Bonsai Side Profile.jpg)
+
+If you plan to build the Bonsai with this case make sure to only order the main pcb and not the base plate or switch plate as this case will negate the need for both.
+
+[](./Pics/Bonsai Top View.jpg)
 
 If you order this from Ponoko here are the material types and thicknesses to use:
 
@@ -17,4 +26,4 @@ If you order this from Ponoko here are the material types and thicknesses to use
 
 07 - Bonsai-Bottom03mm - 3mm acrylic
 
-You will also need [10 M2.5 15mm standoffs](https://www.harwin.com/products/R25-1001502/), [4 M2.5 12mm standoffs](https://www.harwin.com/products/R25-1001202/), [M2 4mm nuts](https://www.harwin.com/products/M80-2430000B/), and [14 M2.5 5mm screws](https://www.amazon.com/Machine-Plated-Phillips-M2-5-0-45-Threads/dp/B000NHVPPO/).  The screws may need to be 6mm.  I won't know until I get the cut case in hand.
+You will also need [10 M2.5 15mm standoffs](https://www.harwin.com/products/R25-1001502/), [4 M2.5 12mm standoffs](https://www.harwin.com/products/R25-1001202/), [M2 4mm nuts](https://www.harwin.com/products/M80-2430000B/), and [14 M2.5 5mm screws](https://www.amazon.com/Machine-Plated-Phillips-M2-5-0-45-Threads/dp/B000NHVPPO/).

@@ -4,6 +4,14 @@
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
+    "net_color_mode": 1,
+    "opacity": {
+      "pads": 1.0,
+      "tracks": 1.0,
+      "vias": 1.0,
+      "zones": 0.6
+    },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -25,11 +33,11 @@
       4,
       5,
       6,
+      7,
       8,
       9,
       10,
       11,
-      12,
       13,
       14,
       15,
@@ -48,16 +56,16 @@
       28,
       29,
       30,
-      31,
-      32,
-      33,
-      34,
-      35
+      37,
+      38
     ],
-    "visible_layers": "7ffff_ffffffff"
+    "visible_layers": "007ffff_ffffffff"
   },
   "meta": {
     "filename": "Bonsai.kicad_prl",
-    "version": 1
+    "version": 2
+  },
+  "project": {
+    "files": []
   }
 }
