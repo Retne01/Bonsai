@@ -3,7 +3,7 @@ This is a completely through hole 75% take on the TGR Alice layout.
 
 ![](./Pics/pic1.jpg)
 
-If you plan on putting this together for yourself you will need to use the 3 gerber zips to order a switch plate, the pcb, and base plate.  If they ask about there being no copper on the base plate or switch plate tell them that they do not need it.  Also if they ask about the closeness of drilled holes just tell them you will accept a damaged product.  All of my switch plates came out just fine so barring a freak accident they should work.  I ordered my prototype pcb from JLC.
+If you plan on putting this together for yourself you will need to use the 3 gerber zips to order a switch plate, the pcb, and base plate.  There is also the option for a [laser cut acrylic case](./Case) which will only require the pcb.  If they ask about there being no copper on the base plate or switch plate tell them that they do not need it.  Also if they ask about the closeness of drilled holes just tell them you will accept a damaged product.  All of my switch plates came out just fine so barring a freak accident they should work.  I ordered my prototype pcb from JLC.
 
 ![](./Pics/pic2.jpg)
 
