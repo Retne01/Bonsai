@@ -1,8 +1,8 @@
-# MYSTERIUM
+# Bonsai
 
 ![Bonsai](https://i.imgur.com/XypHguN.jpg)
 
-A TKL keyboard that can be assembled with only through hole components, including usb type-c
+A 75% take on the Alice that can be assembled with only through hole components, including usb type-c
 
 * Keyboard Maintainer: [Retne](https://github.com/Retne01)
 * Hardware Supported: Bonsai, atmega32a
