@@ -9,6 +9,10 @@ If you want to put one together for yourself you can follow the guide for the FR
 
 ![](./Pics/pic2.jpg)
 
+![](./Pics/BonsaiTopView.jpg)
+
 ![](./Pics/pic3.jpg)
+
+![](./Pics/BonsaiSideProfile.jpg)
 
 ![](./Pics/pic4.jpg)
