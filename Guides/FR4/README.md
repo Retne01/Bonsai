@@ -55,7 +55,7 @@ The USB bootloader should now be flashed.
 
 You should see something similar to this:
 
-![](./pics/qmkflash.png)
+![](./pics/qmkflash.jpg)
 
 Your keyboard should now be flashed and you can now unplug the USB cable.
 
