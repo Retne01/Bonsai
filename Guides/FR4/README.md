@@ -42,16 +42,16 @@ This is a guide from start to finish of how to build an FR4 sandwich Bonsai keyb
 
 19. It's time to flash the bootloader.  Get your AVR programmer out and download [the bootloader](https://github.com/Retne01/Bonsai/tree/master/Bootloader).  Install [WinAVR](http://winavr.sourceforge.net/) and [set up your QMK build environment](https://beta.docs.qmk.fm/tutorial/newbs_getting_started).  If you are not using a Sparkfun Pocket AVR Programmer you will need to edit the makefile.inc to use the programmer of your choice.  Be sure to only edit the makefile.inc and not the makefile itself.  Once done connect your programmer to the 6-pin header and open MinGW64.  Navigate to the bootloader directory and run these two commands
 
-	make flash
-	make fuse
+	```make flash```
+	```make fuse```
 
 The USB bootloader should now be flashed.
 
 20. Now we'll flash your desired QMK firmware layout to the MCU.  Connect the board to your computer with a USB cable and hold down the boot switch, tap the reset switch, and release the boot switch.  You can also hold down the boot switch while inserting the USB cable into the board if you prefer.  This will put the board into bootloader mode.  Make sure you've downloaded the [bonsai QMK source](https://github.com/Retne01/Bonsai/tree/master/QMK) and put it in $/qmk_firmware/keyboards/bonsai/.  Open MinGW64 and navigate to $/qmk_firmware/.  Then run one of the following commands depending on your preferred layout:
 
-	make bonsai:default:flash
+	```make bonsai:default:flash```
 	
-	make bonsai:split_bksp:flash
+	```make bonsai:split_bksp:flash```
 
 You should see something similar to this:
 
