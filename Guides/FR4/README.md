@@ -16,7 +16,7 @@ This is a guide from start to finish of how to build an FR4 sandwich Bonsai keyb
 
 6. Once all the parts arrive get everything together and make sure you have the correct number of parts for your build.  You should have 1x ATmega32A, 2x 75ohm resistors, 1x 1.5k resistor, 2x 5.1k resistors, 1x 10k resistor, 1x 4.7uF capacitor, 2x 0.1uF capacitors, 2x 22pF capacitors, 2x 4-pin switches, 1x 6-pin connection header, 2x 3.6v zener diodes, 1x 40-pin IC socket, 82x 1N4148 diodes, 1x 0.5amp fuse, 1x 16MHz crystal, and 1x USB-C port.
 
-7. Solder 82 141N Diodes.  These have a specific orientation.  The black bar will be oriented upwards and go on the side with the square pad.
+7. Solder 82x 1N4148 Diodes.  These have a specific orientation.  The black bar will be oriented upwards and go on the side with the square pad.
 
 8. Solder the 2x 3.6v zener diodes.  These have a specific orientation.  The black bar will be oriented upwards and go on the side with the square pad.
 
@@ -36,21 +36,22 @@ This is a guide from start to finish of how to build an FR4 sandwich Bonsai keyb
 
 16. Solder the 2x 0.1uF capacitors.  These have no specific orientation.
 
-17. Solder the 40-pin IC socket.  This has a specific orientation.  Do not inset the MCU before soldering the IC socket.  Align the notch on the socket with the notch printed on the board.  Solder 2 pins in opposite corners.  Then reheat one pin and push down on that side and do the same with the other until the socket is flush with the board.
+17. Solder the 40-pin IC socket.  This has a specific orientation.  Do not inset the MCU before soldering the IC socket.  Align the notch on the socket with the notch printed on the board.  Solder 2 pins in opposite corners.  Then reheat one pin and push down on that side and do the same with the other until the socket is flush with the board.  Then solder the rest of the pins.
 
 18. Insert the ATmega32A into the IC socket.  Be sure to line up the notch on the MCU with the notch on the socket.  You may need to gently bend the pin legs to get them aligned with the socket.  I recommend sticking one sideof the MCU's legs into the socket and gently bending the opposite legs to align with the socket and then gently pressing the MCU into the socket.
 
 19. It's time to flash the bootloader.  Get your AVR programmer out and download [the bootloader](https://github.com/Retne01/Bonsai/tree/master/Bootloader).  Install [WinAVR](http://winavr.sourceforge.net/) and [set up your QMK build environment](https://beta.docs.qmk.fm/tutorial/newbs_getting_started).  If you are not using a Sparkfun Pocket AVR Programmer you will need to edit the makefile.inc to use the programmer of your choice.  Be sure to only edit the makefile.inc and not the makefile itself.  Once done connect your programmer to the 6-pin header and open MinGW64.  Navigate to the bootloader directory and run these two commands
 
 	```make flash```
-
 	```make fuse```
 
-The USB bootloader should now be flashed.
+The USB bootloader should now be flashed.  You can now remove your AVR Programmer.
 
-20. Now we'll flash your desired QMK firmware layout to the MCU.  Connect the board to your computer with a USB cable and hold down the boot switch, tap the reset switch, and release the boot switch.  You can also hold down the boot switch while inserting the USB cable into the board if you prefer.  This will put the board into bootloader mode.  Make sure you've downloaded the [bonsai QMK source](https://github.com/Retne01/Bonsai/tree/master/QMK) and put it in $/qmk_firmware/keyboards/bonsai/.  Open MinGW64 and navigate to $/qmk_firmware/.  Then run one of the following commands depending on your preferred layout:
+20. Now we'll flash your desired QMK firmware layout to the MCU.  I've found that QMK Toolbox does not like to work with the board until I've already flashed QMK to it so for these next steps you'll need to have the qmk build environment set up.  Connect the board to your computer with a USB cable and hold down the boot switch, tap the reset switch, and release the boot switch.  You can also hold down the boot switch while inserting the USB cable into the board if you prefer.  This will put the board into bootloader mode.  Make sure you've downloaded the [bonsai QMK source](https://github.com/Retne01/Bonsai/tree/master/QMK) and put it in $/qmk_firmware/keyboards/bonsai/.  Open MinGW64 and navigate to $/qmk_firmware/.  Then run one of the following commands depending on your preferred layout:
 
 	```make bonsai:default:flash```
+
+	or
 	
 	```make bonsai:split_bksp:flash```
 
@@ -58,9 +59,9 @@ You should see something similar to this:
 
 ![](./pics/qmkflash.jpg)
 
-Your keyboard should now be flashed and you can now unplug the USB cable.
+Your keyboard should now be flashed and you can now unplug the USB cable.  I have not added this board to QMK with a pull request because I expect very few people to be interested in the board at all.  If you want to edit the layout you can look at the source I've provided and edit it to your liking.  You can find a list of [qmk key codes here](https://beta.docs.qmk.fm/using-qmk/simple-keycodes/keycodes).
 
-21. Plug your board back in and test to make sure all of the switch holes are working in whatever keyboard tested you prefer.
+21. Plug your board back in, grab a pair of tweesers and test to make sure all of the switch holes are working in whatever keyboard tested you prefer.
 
 22. Now you will need to gather your standoffs, screws, MX switches of your choice, the switch plate, and the base plate.
 

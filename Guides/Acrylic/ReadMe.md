@@ -8,13 +8,13 @@ This is a guide from start to finish of how to build an FR4 sandwich Bonsai keyb
 
 2. Order all the parts you need from the [bill of materials](https://octopart.com/bom-tool/dQECSo9X).  What vendor you choose will be up to you.  I used [Mouser](https://www.mouser.com/) and if you choose to go with them I recommend stating that you would like the parts to ship separately.  When I ordered from them I did not select this and I watched items cycle in and out of stock without them setting anything aside for my order which was very frustrating.  Another place that might be worth looking at is [LCSC](https://lcsc.com/).  I recommend trying to find a place with the majority of the items in stock if not all of them in stock as the parts are pretty darn cheap and the cost will increase exponentially if you're having to pay for shipping from multiple vendors.  I also recommend checking with your local electronic parts stores as it's always good to support local businesses.  Even if they don't stock these parts regularly they might be able to special order them for you and save you a bunch of hassle.
 
-3. Order the acrylic case, standoffs, and screws that you will need to assemble the case.  [The files for the case can be found here](https://github.com/Retne01/Bonsai/tree/master/Case).  Pay attention to the recommended thicknesses for ordering the acrylic case from [Ponoko](https://www.ponoko.com/).  You will only need to order one of each file unless you plan to make multiple boards.  The more you order the bigger the discount.  When I ordered one case I chose to take the long wait for free shipping and the price came to roughly $127 and took roughly a month and a half to arrive.  You can also find at the bottom of that ReadMe the amount, types, and sizes of standoffs and screws.  The links to the standoffs should take you to the Harwin site and if you scroll down you can find some suggested vendors depending on where you're ordering from.  I used Mouser as the supplier of my standoffs and Amazon for the scews.  Be sure to order the [Harwin 4mm nuts](https://www.harwin.com/products/M80-2430000B/) otherwise you'll have to edit the acrylic feet to fit your chosen nut.
+3. Order the acrylic case, standoffs, and screws that you will need to assemble the case.  [The files for the case can be found here](https://github.com/Retne01/Bonsai/tree/master/Case).  Pay attention to the recommended thicknesses for ordering the acrylic case from [Ponoko](https://www.ponoko.com/).  You will only need to order one of each file unless you plan to make multiple boards.  The more you order the bigger the discount.  When I ordered one case I chose to take the long wait for free shipping and the price came to roughly $127 and took roughly a month and a half to arrive.  You can also find at the bottom of that ReadMe the amount, types, and sizes of standoffs and screws.  The links to the standoffs should take you to the Harwin site and if you scroll down you can find some suggested vendors depending on where you're ordering from.  I used Mouser as the supplier of my standoffs and Amazon for the scews.  Be sure to order the [Harwin 4mm nuts](https://www.harwin.com/products/M80-2430000B/) otherwise you'll have to edit the acrylic feet to fit your chosen nut.  You'll also want to order some [bumpons](https://www.amazon.com/gp/product/B06XCGM8JT/) to go on the bottom of the feet.
 
 4. Make sure that you have a soldering iron, some steel mesh to clean your soldering iron, some flux, some solder, and a solder sucker.  I also recommend soldering in a well ventilated area and try to have a fan pulling the solder away from the solder site as inhaling solder fumes on the regular is not good for your health.
 
 5. Once all the parts arrive get everything together and make sure you have the correct number of parts for your build.  You should have 1x ATmega32A, 2x 75ohm resistors, 1x 1.5k resistor, 2x 5.1k resistors, 1x 10k resistor, 1x 4.7uF capacitor, 2x 0.1uF capacitors, 2x 22pF capacitors, 2x 4-pin switches, 1x 6-pin connection header, 2x 3.6v zener diodes, 1x 40-pin IC socket, 82x 1N4148 diodes, 1x 0.5amp fuse, 1x 16MHz crystal, and 1x USB-C port.
 
-6. Solder 82 141N Diodes.  These have a specific orientation.  The black bar will be oriented upwards and go on the side with the square pad.
+6. Solder 82x 1N4148 Diodes.  These have a specific orientation.  The black bar will be oriented upwards and go on the side with the square pad.
 
 7. Solder the 2x 3.6v zener diodes.  These have a specific orientation.  The black bar will be oriented upwards and go on the side with the square pad.
 
@@ -36,29 +36,30 @@ This is a guide from start to finish of how to build an FR4 sandwich Bonsai keyb
 
 16. Solder the 40-pin IC socket.  This has a specific orientation.  Do not inset the MCU before soldering the IC socket.  Align the notch on the socket with the notch printed on the board.  Solder 2 pins in opposite corners.  Then reheat one pin and push down on that side and do the same with the other until the socket is flush with the board.
 
-17. Insert the ATmega32A into the IC socket.  Be sure to line up the notch on the MCU with the notch on the socket.  You may need to gently bend the pin legs to get them aligned with the socket.  I recommend sticking one sideof the MCU's legs into the socket and gently bending the opposite legs to align with the socket and then gently pressing the MCU into the socket.
+17. Insert the ATmega32A into the IC socket.  Be sure to line up the notch on the MCU with the notch on the socket.  You may need to gently bend the pin legs to get them aligned with the socket.  I recommend sticking one sideof the MCU's legs into the socket and gently bending the opposite legs to align with the socket and then gently pressing the MCU into the socket.  Then solder the rest of the pins.
 
 18. It's time to flash the bootloader.  Get your AVR programmer out and download [the bootloader](https://github.com/Retne01/Bonsai/tree/master/Bootloader).  Install [WinAVR](http://winavr.sourceforge.net/) and [set up your QMK build environment](https://beta.docs.qmk.fm/tutorial/newbs_getting_started).  If you are not using a Sparkfun Pocket AVR Programmer you will need to edit the makefile.inc to use the programmer of your choice.  Be sure to only edit the makefile.inc and not the makefile itself.  Once done connect your programmer to the 6-pin header and open MinGW64.  Navigate to the bootloader directory and run these two commands
 
 	```make flash```
-
 	```make fuse```
 
-The USB bootloader should now be flashed.
+The USB bootloader should now be flashed.  You can now remove your AVR Programmer.
 
 19. Now we'll flash your desired QMK firmware layout to the MCU.  Connect the board to your computer with a USB cable and hold down the boot switch, tap the reset switch, and release the boot switch.  You can also hold down the boot switch while inserting the USB cable into the board if you prefer.  This will put the board into bootloader mode.  Make sure you've downloaded the [bonsai QMK source](https://github.com/Retne01/Bonsai/tree/master/QMK) and put it in $/qmk_firmware/keyboards/bonsai/.  Open MinGW64 and navigate to $/qmk_firmware/.  Then run one of the following commands depending on your preferred layout:
 
 	```make bonsai:default:flash```
 	
+	or
+
 	```make bonsai:split_bksp:flash```
 
 You should see something similar to this:
 
 ![](./pics/qmkflash.jpg)
 
-Your keyboard should now be flashed and you can now unplug the USB cable.
+Your keyboard should now be flashed and you can now unplug the USB cable.  I have not added this board to QMK with a pull request because I expect very few people to be interested in the board at all.  If you want to edit the layout you can look at the source I've provided and edit it to your liking.  You can find a list of [qmk key codes here](https://beta.docs.qmk.fm/using-qmk/simple-keycodes/keycodes).
 
-20.  Plug your board back in and test to make sure all of the switch holes are working in whatever keyboard tester you prefer.
+20.  Plug your board back in, grab a pair of tweesers and test to make sure all of the switch holes are working in whatever keyboard tester you prefer.
 
 21. Now grab your acrylic parts, standoffs, and screws.  You should have 6 acrylic layers and one POM/Delrin layer.  For your standoffs and screws you should have 10x M2.5 14mm standoffs, 4x M2.5 11mm standoffs, 4x M2 4mm nuts, 4x M2 6mm screws, and 14x M2.5 5mm screws.
 
